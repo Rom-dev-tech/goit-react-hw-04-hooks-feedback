@@ -1,0 +1,14 @@
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.buttonItem {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}

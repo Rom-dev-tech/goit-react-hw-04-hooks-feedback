@@ -1,0 +1,32 @@
+.stats {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+
+  & span {
+    margin-left: 15px;
+    font-weight: 700;
+  }
+
+  &.total {
+    font-size: 32px;
+    font-style: italic;
+    text-transform: none;
+    color: #03a9f4;
+    margin: 0;
+  }
+}
+
+.statsList {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.statsItem {
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
